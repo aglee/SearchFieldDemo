@@ -41,7 +41,7 @@
 
 	return [NSPredicate predicateWithFormat:(@"title CONTAINS[cd] %@"
 											 @" OR author CONTAINS[cd] %@")
-							  argumentArray:(@[ searchString, searchString, searchString ])];
+							  argumentArray:(@[ searchString, searchString ])];
 
 }
 
