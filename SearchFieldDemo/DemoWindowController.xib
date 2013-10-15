@@ -119,7 +119,7 @@
                 <outlet property="delegate" destination="-2" id="4"/>
             </connections>
         </window>
-        <arrayController objectClassName="DemoBook" id="5" userLabel="Listings Array Controller"/>
+        <arrayController objectClassName="DemoBook" id="5" userLabel="Books Array Controller"/>
         <userDefaultsController representsSharedInstance="YES" id="65"/>
     </objects>
 </document>
