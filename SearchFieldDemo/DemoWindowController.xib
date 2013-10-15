@@ -32,7 +32,7 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </searchFieldCell>
                         <connections>
-                            <outlet property="delegate" destination="-2" id="Zkz-Qe-j9s"/>
+                            <action selector="doSearch:" target="-2" id="tSB-K6-TAM"/>
                         </connections>
                     </searchField>
                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="7">

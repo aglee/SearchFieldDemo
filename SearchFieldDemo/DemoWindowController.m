@@ -12,11 +12,11 @@
 
 @implementation DemoWindowController
 
-#pragma mark - NSControl delegate methods
+#pragma mark - Action methods
 
-- (void)controlTextDidChange:(NSNotification *)aNotification
+- (IBAction)doSearch:(id)sender
 {
-	if ([aNotification object] == _searchField)
+	if (sender == _searchField)
 	{
 		[self _updateListFilter];
 	}
@@ -42,7 +42,6 @@
 	return [NSPredicate predicateWithFormat:(@"title CONTAINS[cd] %@"
 											 @" OR author CONTAINS[cd] %@")
 							  argumentArray:(@[ searchString, searchString ])];
-
 }
 
 @end
